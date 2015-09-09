@@ -1,0 +1,68 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-size: cover;
+	postition: relative;
+}
+
+.login-form{
+	background: url(../images/loginMenu.png) no-repeat 100% 0%;
+	background-size: 100%;
+	width:37%;
+	margin: 10% auto 4% auto;
+	position: relative;
+	transition: 0.5s all;
+}
+
+.login-form h1{
+	text-align: left;
+	color: #ccc;
+	font-family: 'Open Sans', sans-serif;
+	position:absolute;
+	top:7%;
+	left:11%;
+	margin:34px 0;
+}
+
+form{
+	padding: 30% 3em;
+}
+
+form li{
+	border: 1px solid #ccc;
+	list-style: none;
+	margin-bottom: 17px;
+	width: 100%;
+	background: #ccc;
+}
+
+input[type="text"], input[type="password"]{
+	font-family: 'Open Sans', sans-serif;
+	width:60%;
+	padding: 0.5em 2em 0.5em 1em;
+	color: #fff;
+	font-size: 20px;
+	outline: none;
+	background: none;
+	border:none;
+}
+
+input[type="submit"]{
+	float: left;
+	font-size:18px;
+	display: inline-block;
+	color: red;
+	cursor: pointer;
+	margin-top: 3px;
+	width: 50%;
+}
+
+.forgot{
+margin:30px 7px;
+color: #ccc;
+font-size: 10px;
+float: right;
+margin-top:19px;
+}
+
+
+
