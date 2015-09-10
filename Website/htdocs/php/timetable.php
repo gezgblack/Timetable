@@ -16,8 +16,8 @@ function connect(){
 	
 }
 
-function timetable($day){
-	$sql = "SELECT class_time.start_time, class_time.end_time, class.class_name FROM class_time INNER JOIN class ON class_time.class_ID=class.class_ID INNER JOIN student_class ON class.class_ID=student_class.class_ID WHERE student_ID='X12345' AND day='".$day."'";
+function timetable($day,$stuID){
+	$sql = "SELECT class_time.start_time, class_time.end_time, class.class_name FROM class_time INNER JOIN class ON class_time.class_ID=class.class_ID INNER JOIN student_class ON class.class_ID=student_class.class_ID WHERE student_ID='".$stuID."' AND day='".$day."'";
 	global $conn;
 	$result = $conn->query($sql);
 
