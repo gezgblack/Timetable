@@ -1,4 +1,6 @@
-<?php include ('php/timetable.php');?>
+<?php include ('php/timetable.php');
+
+?>
 <html>
 	<head>
 		<Title>Home</title>
@@ -16,6 +18,9 @@
 			
 		<div id="timetable">
 			<?php
+				
+				echo date("D")."<br />";
+			
 				connect();
 				timetable('MON');
 				
