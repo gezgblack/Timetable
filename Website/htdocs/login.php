@@ -10,7 +10,7 @@
 	<?php include 'navigation.php';?>
 	
 	<div class="login-form">
-	<h1>Log In</h1>
+	
 	
 		<form>
 	
