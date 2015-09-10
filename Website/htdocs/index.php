@@ -1,4 +1,4 @@
-include 
+<?php include ('php/timetable.php');?>
 <html>
 	<head>
 		<Title>Home</title>
@@ -15,7 +15,12 @@ include
 		</div>
 			
 		<div id="timetable">
+			<?php
+				connect();
+				timetable('MON');
 				
+			
+			?>
 			
 		</div>
 		
