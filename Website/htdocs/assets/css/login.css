@@ -1,15 +1,9 @@
-body {
-	font-family: 'Open Sans', sans-serif;
-	background-size: cover;
-	postition: relative;
-	background-color: A19590;
-}
 
 .login-form{
 	background: url(../images/loginMenu.png) no-repeat 100% 0%;
 	background-size: 100%;
 	width:37%;
-	margin: 10% auto 4% auto;
+	
 	position: relative;
 }
 
