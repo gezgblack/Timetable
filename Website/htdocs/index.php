@@ -22,7 +22,7 @@
 				echo date("D")."<br />";
 			
 				connect();
-				timetable(date("D"),'1');
+				timetable(date("D"),'2');
 				
 			
 			?>
