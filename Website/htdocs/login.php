@@ -1,11 +1,15 @@
-<html>
 
+<html>
 <head>
 	<title> Login </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/login.css">
+	
 </head>
 
 <body>
+	<?php include 'navigation.php';?>
+	
 	<div class="login-form">
 	<h1>Log In</h1>
 	
