@@ -11,13 +11,13 @@
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Enroll</a></li>
 				<li><a href="#">Settings</a></li>
-				<li><a href="#">Logout</a></li>
+				<li><a href="login.php">Login</a></li>
 			</ul>
 		</div>
 		<div style="clear: both;"></div>
 		
 		<div id="day">
-				Today
+				
 		</div>
 			
 		<div id="timetable">
