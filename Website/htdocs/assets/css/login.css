@@ -3,8 +3,10 @@
 	background: url(../images/loginMenu.png) no-repeat 100% 0%;
 	background-size: 100%;
 	width:37%;
-	
-	position: relative;
+	padding: 10% 5%;
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 20%;
 }
 
 .login-form h1{
