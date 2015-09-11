@@ -1,63 +1,36 @@
-
-.login-form{
-	
-	position: relative;
-	background-size: 100%;
-	width:37%;
-	margin: auto;
-	padding-top: 30%;
-}
-
-.login-form h1{
-	text-align: left;
-	color: #ccc;
-	font-family: 'Open Sans', sans-serif;
-	position:absolute;
-	top:4%;
-	left:11%;
-	margin:34px 0;
-}
-
-form{
-	padding: 30% 3em;
-}
-
-form li{
-	border: 1px solid #ccc;
-	list-style: none;
-	margin-bottom: 17px;
-	width: 100%;
-	background: #ccc;
-}
-
-input[type="text"], input[type="password"]{
-	font-family: 'Open Sans', sans-serif;
-	width:60%;
-	padding: 0.5em 2em 0.5em 1em;
-	color: #fff;
-	font-size: 20px;
-	outline: none;
-	background: none;
-	border:none;
-}
-
-input[type="submit"]{
-	float: left;
-	font-size:18px;
-	display: inline-block;
-	color: red;
-	cursor: pointer;
-	margin-top: 3px;
-	width: 50%;
-}
-
-.forgot{
-margin:30px 7px;
-color: #ccc;
-font-size: 10px;
-float: right;
-margin-top:19px;
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
 }
 
 
+#loginmodal {
+  width: 300px;
+  padding: 15px 20px;
+  background: #f3f6fa;
+  border-radius: 6px;
+}
+
+
+.txtfield { 
+  width: 100%;
+  padding: 6px 5px;
+  margin-bottom: 15px;
+  color: #7988a3;
+  border: 1px solid;
+  border-radius: 4px;
+
+}
+
+.txtfield:focus {
+  outline: none;
+  color: #525864;
+  border-color: #84c0ee;
+}
 
